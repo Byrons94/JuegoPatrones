@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: e9b1984320e50e145af76675abcf944e
+timeCreated: 1450573394
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: granfisher_0
+    21300002: granfisher_1
+    21300004: granfisher_2
+    21300006: granfisher_3
+    21300008: granfisher_4
+    21300010: granfisher_5
+    21300012: granfisher_6
+    21300014: granfisher_7
+    21300016: granfisher_8
+    21300018: granfisher_9
+    21300020: granfisher_10
+    21300022: granfisher_11
+    21300024: granfisher_12
+    21300026: granfisher_13
+    21300028: granfisher_14
+    21300030: granfisher_15
+    21300032: granfisher_16
+    21300034: granfisher_17
+    21300036: granfisher_18
+    21300038: granfisher_19
+    21300040: granfisher_20
+    21300042: granfisher_21
+    21300044: granfisher_22
+    21300046: granfisher_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: granfisher_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 156
+        width: 143
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 156
+        width: 143
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 157
+        width: 143
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 156
+        width: 143
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_4
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 157
+        width: 123
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_5
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 157
+        width: 123
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 134
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 134
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 134
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_10
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 134
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_11
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 134
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_12
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 134
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_13
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 134
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_14
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 134
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_15
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 134
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 132
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 5
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_18
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 4
+        width: 114
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_19
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 4
+        width: 115
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_20
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 6
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_21
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 6
+        width: 122
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_22
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1
+        width: 129
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: granfisher_23
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1
+        width: 139
+        height: 123
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

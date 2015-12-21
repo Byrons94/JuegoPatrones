@@ -1,0 +1,595 @@
+fileFormatVersion: 2
+guid: 1d47208712be2c84c9debe5262431219
+timeCreated: 1449366002
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: karakura_0
+    21300002: karakura_1
+    21300004: karakura_2
+    21300006: karakura_3
+    21300008: karakura_4
+    21300010: karakura_5
+    21300012: karakura_6
+    21300014: karakura_7
+    21300016: karakura_8
+    21300018: karakura_9
+    21300020: karakura_10
+    21300022: karakura_11
+    21300024: karakura_12
+    21300026: karakura_13
+    21300028: karakura_14
+    21300030: karakura_15
+    21300032: karakura_16
+    21300034: karakura_17
+    21300036: karakura_18
+    21300038: karakura_19
+    21300040: karakura_20
+    21300042: karakura_21
+    21300044: karakura_22
+    21300046: karakura_23
+    21300048: karakura_24
+    21300050: karakura_25
+    21300052: karakura_26
+    21300054: karakura_27
+    21300056: karakura_28
+    21300058: karakura_29
+    21300060: karakura_30
+    21300062: karakura_31
+    21300064: karakura_32
+    21300066: karakura_33
+    21300068: karakura_34
+    21300070: karakura_35
+    21300072: karakura_36
+    21300074: karakura_37
+    21300076: karakura_38
+    21300078: karakura_39
+    21300080: karakura_40
+    21300082: karakura_41
+    21300084: karakura_42
+    21300086: karakura_43
+    21300088: karakura_44
+    21300090: karakura_45
+    21300092: karakura_46
+    21300094: karakura_47
+    21300096: karakura_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 500
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: karakura_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 703
+        width: 2368
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 610
+        width: 960
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 25
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_3
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 27
+        width: 48
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_4
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 357
+        width: 363
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_5
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 28
+        width: 24
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_6
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 271
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_7
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 271
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_8
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 257
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_9
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 263
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_10
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 271
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_11
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 257
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_12
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 271
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_13
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 271
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_14
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 271
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_15
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 257
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_16
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 272
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_17
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 272
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_18
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 263
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_19
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 264
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_20
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 264
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_21
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 264
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_22
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 263
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_23
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 265
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_24
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 264
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_25
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 192
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_26
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 188
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_27
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 175
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_28
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 193
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_29
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 191
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_30
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 192
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_31
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 183
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_32
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 182
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_33
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 184
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_34
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 184
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_35
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 26
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_36
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 113
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_37
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 113
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_38
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 113
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_39
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 113
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_40
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 27
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_41
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 71
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_42
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 71
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_43
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 32
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_44
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 31
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_45
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 31
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_46
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 24
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_47
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 30
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karakura_48
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 31
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
