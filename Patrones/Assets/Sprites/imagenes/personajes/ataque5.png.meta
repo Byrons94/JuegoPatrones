@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: c780f5349bc177b4a92b915dfb45db7b
+timeCreated: 1450684899
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ataque5_0
+    21300002: ataque5_1
+    21300004: ataque5_2
+    21300006: ataque5_3
+    21300008: ataque5_4
+    21300010: ataque5_5
+    21300012: ataque5_6
+    21300014: ataque5_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ataque5_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 10
+        width: 62
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 54}
+        - {x: -31, y: -54}
+        - {x: 31, y: -54}
+        - {x: 31, y: 5}
+        - {x: 24, y: 41}
+        - {x: 0, y: 54}
+    - name: ataque5_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 10
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 58.5}
+        - {x: -34, y: 58.5}
+        - {x: -34, y: -58.5}
+        - {x: 34, y: -58.5}
+        - {x: 34, y: -22.5}
+        - {x: 14, y: 39.5}
+    - name: ataque5_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 10
+        width: 83
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41.5, y: -39.5}
+        - {x: -36.5, y: -58.5}
+        - {x: 41.5, y: -58.5}
+        - {x: 41.5, y: 14.5}
+        - {x: 38.5, y: 36.5}
+        - {x: -19.5, y: 58.5}
+        - {x: -38.5, y: 58.5}
+        - {x: -41.5, y: 51.5}
+    - name: ataque5_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 10
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: -44}
+        - {x: 57.5, y: -44}
+        - {x: 58.5, y: -41}
+        - {x: 58.5, y: -25}
+        - {x: 12.5, y: 37}
+        - {x: 5.5, y: 39}
+        - {x: -21.5, y: 29}
+        - {x: -26.5, y: 19}
+        - {x: -22.5, y: 15}
+        - {x: -54.5, y: 44}
+        - {x: -58.5, y: 44}
+        - {x: -58.5, y: -8}
+        - {x: -53.5, y: -44}
+        - {x: 23.5, y: -44}
+        - {x: 27.5, y: -43}
+        - {x: 25.5, y: -40}
+        - {x: 22.5, y: -37}
+        - {x: 27.5, y: -41}
+    - name: ataque5_4
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 10
+        width: 104
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 46}
+        - {x: -33, y: 46}
+        - {x: -41, y: 41}
+        - {x: -52, y: -8}
+        - {x: -52, y: -46}
+        - {x: 52, y: -46}
+        - {x: 52, y: 25}
+        - {x: 32, y: 42}
+    - name: ataque5_5
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 10
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 33}
+        - {x: 17, y: 34}
+        - {x: 42, y: 17}
+        - {x: 44, y: 16}
+        - {x: 44, y: 23}
+        - {x: 37, y: 38}
+        - {x: 23, y: 46}
+        - {x: -42, y: 46}
+        - {x: -44, y: 23}
+        - {x: -44, y: -46}
+        - {x: 30, y: -46}
+        - {x: 28, y: -28}
+        - {x: 19, y: 28}
+        - {x: 13, y: 32}
+    - name: ataque5_6
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 10
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 46}
+        - {x: -33.5, y: 23}
+        - {x: -33.5, y: -46}
+        - {x: 33.5, y: -46}
+        - {x: 33.5, y: 43}
+        - {x: 21.5, y: 46}
+    - name: ataque5_7
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 10
+        width: 105
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.5, y: -40}
+        - {x: 52.5, y: -40}
+        - {x: 52.5, y: -10}
+        - {x: 24.5, y: 40}
+        - {x: -23.5, y: 40}
+        - {x: -36.5, y: 31}
+        - {x: -52.5, y: -16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

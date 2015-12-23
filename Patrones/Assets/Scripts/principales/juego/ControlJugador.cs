@@ -1,58 +1,111 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ControlJugador : MonoBehaviour {
 
-	Jugador shinigami;
+	Shinigami shinigami;
 	Rigidbody2D component;
+	Animator anim;
+    private bool atacando = false;
+    private float tiempoAtaque = 0f;
+    private float atactCd = 0.3f;
+    public Collider2D atactTriger;
 
-	Animator anim; // cambiar esto al final
-	
 	void Start () {
 	 	anim = GetComponent<Animator>();
 		component = GetComponent<Rigidbody2D>();
-		shinigami = new Jugador(anim, component, 1, 100, "Ichigo");
+		shinigami = new Ichigo(anim, component, 1, 100, "Ichigo", false);
+        atactTriger.enabled = false;
 	}
-	
-	// Update is called once per frame
-	void FixedUpdate(){
 
 
-		float move = Input.GetAxis("Horizontal");         
-		shinigami.caminar(move);
-		if (move > 0 && shinigami.getViendoDerecha()){
-			shinigami.voltear();
-			anim.SetBool("corriendo", false);
-		}		
-		else if (move < 0 && !shinigami.getViendoDerecha()){
-			shinigami.voltear();
-			anim.SetBool("corriendo", false);
-		}
+    void Update() {
 
-		if (Input.GetKeyDown(KeyCode.Space)){
-			shinigami.saltar();
-			anim.SetBool("corriendo", false);
-		}
+        if (shinigami.getVidaActual() <= 0){
+            LoadScene();
+            Destroy(gameObject);
+        }
+    }
 
-		anim.SetBool("atacar1", false);
-		if(Input.GetKey(KeyCode.X)){
-			shinigami.atacar();	
-		}
+    // Update is called once per frame
+    void FixedUpdate(){
+        float move = Input.GetAxis("Horizontal");
+        shinigami.caminar(move);
 
-		//correr 
-		if ((move > 0 || move < 0) && Input.GetKey(KeyCode.LeftShift)){
-			transform.Translate(Vector2.right * Time.deltaTime * move * 5f); 
-			anim.SetBool("corriendo", true);
-			component.velocity = new Vector3 (move * 5f, component.velocity.y);
-		}	
+        if (move > 0 && shinigami.getViendoDerecha()){
+            shinigami.voltear();
+            anim.SetBool("corriendo", false);
+        }
+        else if (move < 0 && !shinigami.getViendoDerecha()){
+            shinigami.voltear();
+            anim.SetBool("corriendo", false);
+        }
 
-	}
-	//metodo que se encarga de las colisiones del jugador
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            shinigami.saltar();
+            anim.SetBool("corriendo", false);
+        }
+
+
+        anim.SetBool("atacar1", false);
+        anim.SetBool("atacar2", false);
+        if (Input.GetKey(KeyCode.X) && !atacando){
+            shinigami.ataqueNormal();
+
+            atacando = true;
+            tiempoAtaque = atactCd;
+            atactTriger.enabled = true;
+        }
+
+        if (Input.GetKey(KeyCode.Z) && !atacando){
+            shinigami.ataqueFuerte();
+
+            atacando = true;
+            tiempoAtaque = atactCd;
+            atactTriger.enabled = true;
+        }
+        tiempoAtaqueE(move);
+    }
+
+    private void tiempoAtaqueE(float move) {
+        if (atacando)
+        {
+            if (tiempoAtaque > 0)
+            {
+                tiempoAtaque -= Time.deltaTime;
+            }
+            else
+            {
+                atacando = false;
+                atactTriger.enabled = false;
+            }
+        }
+
+
+        if ((move > 0 || move < 0) && Input.GetKey(KeyCode.LeftShift))
+        {
+            shinigami.correr(move);
+        }
+    }
+
+    private void LoadScene(){
+        Application.LoadLevel("gameOver");
+    }
+
+
 	void OnCollisionEnter2D(Collision2D collision){
-		if(collision.gameObject.tag == "block" ){
+		if(collision.gameObject.tag == "block" || collision.gameObject.tag == "Demi"){
 			anim.SetBool("salto", false);
 		}
 	}
+
+
+    void recibirAtaque(int dano){
+        shinigami.recibirDano(dano);
+    }
 }
 
 

@@ -7,9 +7,8 @@ public class ControlEnemigo : MonoBehaviour {
 	private FabricaDeHolows fabrica;
 	private Hollow enemigo;
 	private GameObject shinigami;
-	private float maxRange = 3f;
+	private float maxRange = 5f;
 	private bool rango = false;
-
 
 	void Start () {
 		string tipoHollow = this.tag.ToString();
@@ -18,37 +17,45 @@ public class ControlEnemigo : MonoBehaviour {
 
 		fabrica	  = new FabricaDeHolows();
 		enemigo   = fabrica.crearHollow(tipoHollow, anim, component);
-		shinigami = GameObject.FindGameObjectWithTag("Player");
+		shinigami = GameObject.FindGameObjectWithTag("Ichigo");
 		if(enemigo==null){
 			Destroy(this);
 		}
+	}
+    
+    
 
+	void Update (){
+        if (enemigo.getVidaActual() <= 0) {
+            puntaje.score += 1;
+            Destroy(gameObject);
+        }
+        
+        if ((Vector3.Distance(transform.position, shinigami.transform.position) <= maxRange) && !rango){
+           
+            enemigo.cambiarComportamiento();
+            rango = true;
 
+            if (shinigami.transform.position.x < transform.position.x && !enemigo.getViendoDerecha()
+                    || shinigami.transform.position.x >= transform.position.x && enemigo.getViendoDerecha()){
+                enemigo.voltear();
+            }
+        }
+        else if ((Vector3.Distance(transform.position, shinigami.transform.position) > maxRange) && rango){
+            enemigo.cambiarComportamiento();
+
+            rango = false;
+        }
+        enemigo.comportarse();
 	}
 
-	void prueba(){
-		print(enemigo.getEstado().prueba());
-		Invoke("prueba", 10);
-	}
-
-
-
-	void Update () {
-		if ((Vector3.Distance(transform.position, shinigami.transform.position) <= maxRange) && !rango){
-			enemigo.cambiarComportamiento();
-			rango = true;
-		}
-		else if((Vector3.Distance(transform.position, shinigami.transform.position) > maxRange) && rango){
-			enemigo.cambiarComportamiento();
-			rango = false;
-		}
-		enemigo.comportarse();
-	}
-
-	void OnCollisionEnter2D(Collision2D coll){
-
+    void OnCollisionEnter2D(Collision2D coll){
 		if(coll.gameObject.tag == "limites"){
 			enemigo.voltear();
 		}
 	}
+
+    void damage(int dano) {
+        enemigo.recibirDano(dano);
+    }
 }

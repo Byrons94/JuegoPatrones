@@ -6,10 +6,9 @@ using System.Collections.Generic;
 public interface IMovilidad{
 	
 	void caminar(float distancia);
-	void correr();
+	void correr(float move);
 	void voltear();
 	void saltar();
-	void atacar();
-	//void recibirDamage();
+	void ataqueNormal();
 }
 

@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: f4fdd34df16f00a4a8ae04633e2c91f7
+timeCreated: 1450679017
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: atake3_0
+    21300002: atake3_1
+    21300004: atake3_2
+    21300006: atake3_3
+    21300008: atake3_4
+    21300010: atake3_5
+    21300012: atake3_6
+    21300014: atake3_7
+    21300016: atake3_8
+    21300018: atake3_9
+    21300020: atake3_10
+    21300022: atake3_11
+    21300024: atake3_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: atake3_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 124
+        width: 165
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: -58}
+        - {x: 51.5, y: -58}
+        - {x: 82.5, y: -28}
+        - {x: 82.5, y: -1}
+        - {x: 81.5, y: -1}
+        - {x: 72.5, y: -2}
+        - {x: 63.5, y: 40}
+        - {x: 49.5, y: 51}
+        - {x: 37.5, y: 58}
+        - {x: -60.5, y: 58}
+        - {x: -82.5, y: 28}
+        - {x: -82.5, y: 0}
+        - {x: -79.5, y: -1}
+        - {x: -39.5, y: 29}
+        - {x: -47.5, y: -9}
+        - {x: -40.5, y: -47}
+        - {x: -32.5, y: -58}
+        - {x: -13.5, y: -58}
+        - {x: -7.5, y: -53}
+        - {x: -5.5, y: -45}
+        - {x: 5.5, y: -49}
+    - name: atake3_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 127
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 57.5}
+        - {x: -28, y: 57.5}
+        - {x: -59, y: 50.5}
+        - {x: -59, y: -47.5}
+        - {x: -56, y: -48.5}
+        - {x: -53, y: -47.5}
+        - {x: -48, y: -39.5}
+        - {x: -48, y: -18.5}
+        - {x: -47, y: -5.5}
+        - {x: -47, y: -2.5}
+        - {x: -47, y: -7.5}
+        - {x: -48, y: -20.5}
+        - {x: -48, y: -30.5}
+        - {x: -47, y: -38.5}
+        - {x: -49, y: -57.5}
+        - {x: 57, y: -57.5}
+        - {x: 59, y: -45.5}
+        - {x: 59, y: 49.5}
+    - name: atake3_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 127
+        width: 96
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 57}
+        - {x: -48, y: 32}
+        - {x: -48, y: -27}
+        - {x: -40, y: -57}
+        - {x: 48, y: -57}
+        - {x: 48, y: 57}
+    - name: atake3_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 126
+        width: 182
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87, y: -12}
+        - {x: 91, y: -8}
+        - {x: 91, y: 21}
+        - {x: 89, y: 25}
+        - {x: 30, y: 44}
+        - {x: 16, y: 46}
+        - {x: -40, y: 46}
+        - {x: -85, y: 6}
+        - {x: -90, y: -26}
+        - {x: -91, y: -28}
+        - {x: -91, y: -54}
+        - {x: 15, y: -54}
+        - {x: 12, y: -43}
+        - {x: 8, y: -39}
+        - {x: 22, y: -33}
+    - name: atake3_4
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 126
+        width: 182
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 90, y: 28}
+        - {x: 24, y: 46}
+        - {x: -48, y: 46}
+        - {x: -91, y: -2}
+        - {x: -91, y: -54}
+        - {x: 6, y: -54}
+        - {x: 24, y: -49}
+        - {x: 91, y: -9}
+        - {x: 91, y: 26}
+    - name: atake3_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 126
+        width: 184
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92, y: -18.5}
+        - {x: 92, y: 31.5}
+        - {x: 45, y: 46.5}
+        - {x: -59, y: 46.5}
+        - {x: -92, y: -2.5}
+        - {x: -92, y: -53.5}
+        - {x: 14, y: -53.5}
+        - {x: 11, y: -42.5}
+        - {x: 29, y: -53.5}
+        - {x: 48, y: -53.5}
+    - name: atake3_6
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 126
+        width: 187
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86.5, y: -22.5}
+        - {x: 93.5, y: -15.5}
+        - {x: 93.5, y: 32.5}
+        - {x: 48.5, y: 46.5}
+        - {x: -35.5, y: 46.5}
+        - {x: -68.5, y: 22.5}
+        - {x: -87.5, y: 6.5}
+        - {x: -92.5, y: -25.5}
+        - {x: -93.5, y: -27.5}
+        - {x: -93.5, y: -53.5}
+        - {x: 12.5, y: -53.5}
+        - {x: 9.5, y: -42.5}
+        - {x: 5.5, y: -38.5}
+        - {x: 19.5, y: -32.5}
+    - name: atake3_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 247
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 123.5, y: 3}
+        - {x: 57.5, y: 4}
+        - {x: 74.5, y: 3}
+        - {x: 107.5, y: 5}
+        - {x: 123.5, y: 6}
+        - {x: 123.5, y: 11}
+        - {x: 117.5, y: 16}
+        - {x: 45.5, y: 16}
+        - {x: -2.5, y: 40}
+        - {x: -15.5, y: 42}
+        - {x: -72.5, y: 42}
+        - {x: -117.5, y: 2}
+        - {x: -122.5, y: -30}
+        - {x: -123.5, y: -32}
+        - {x: -123.5, y: -58}
+        - {x: -17.5, y: -58}
+        - {x: -20.5, y: -47}
+        - {x: 8.5, y: -58}
+        - {x: 123.5, y: -17}
+    - name: atake3_8
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 6
+        width: 217
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108.5, y: -22}
+        - {x: 108.5, y: 14}
+        - {x: 105.5, y: 16}
+        - {x: 61.5, y: 16}
+        - {x: 12.5, y: 40}
+        - {x: -0.5, y: 42}
+        - {x: -57.5, y: 42}
+        - {x: -102.5, y: 2}
+        - {x: -107.5, y: -30}
+        - {x: -108.5, y: -32}
+        - {x: -108.5, y: -58}
+        - {x: -2.5, y: -58}
+        - {x: -5.5, y: -47}
+        - {x: 10.5, y: -58}
+        - {x: 27.5, y: -58}
+    - name: atake3_9
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 6
+        width: 187
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86.5, y: -27}
+        - {x: 93.5, y: -20}
+        - {x: 93.5, y: 28}
+        - {x: 48.5, y: 42}
+        - {x: -35.5, y: 42}
+        - {x: -68.5, y: 18}
+        - {x: -87.5, y: 2}
+        - {x: -92.5, y: -30}
+        - {x: -93.5, y: -32}
+        - {x: -93.5, y: -58}
+        - {x: 12.5, y: -58}
+        - {x: 9.5, y: -47}
+        - {x: 5.5, y: -43}
+        - {x: 19.5, y: -37}
+    - name: atake3_10
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 6
+        width: 186
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93, y: 32}
+        - {x: 65, y: 42}
+        - {x: -44, y: 42}
+        - {x: -77, y: 29}
+        - {x: -93, y: -14}
+        - {x: -93, y: -58}
+        - {x: 13, y: -58}
+        - {x: 10, y: -47}
+        - {x: 6, y: -43}
+        - {x: 93, y: -13}
+    - name: atake3_11
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 6
+        width: 181
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.5, y: 42}
+        - {x: -52.5, y: 42}
+        - {x: -90.5, y: 22}
+        - {x: -90.5, y: -58}
+        - {x: 4.5, y: -58}
+        - {x: 24.5, y: -53}
+        - {x: 90.5, y: -13}
+        - {x: 90.5, y: 19}
+    - name: atake3_12
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 6
+        width: 138
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 4}
+        - {x: 69, y: 4}
+        - {x: 69, y: 25}
+        - {x: 53, y: 51}
+        - {x: -26, y: 51}
+        - {x: -69, y: 30}
+        - {x: -69, y: -58}
+        - {x: 27, y: -58}
+        - {x: 47, y: -53}
+        - {x: 69, y: -7}
+        - {x: 69, y: 3}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

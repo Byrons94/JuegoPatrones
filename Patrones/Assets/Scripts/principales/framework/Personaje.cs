@@ -5,13 +5,12 @@ using System.Collections;
 		private int tipo;
 		private int vidaMaxima;
 		private int vidaActual;
-		private bool estaVivo; //estado
 		private string nombre;
-		private Animator Anim;
-	
+		
 		public Personaje(int ptipo, int pvidaMaxima, string pnombre){
 			setTipo(ptipo);
 			setVidaMaxima(pvidaMaxima);
+            setVidaActual(100);
 			setNombre(pnombre);
 		}
 
@@ -24,9 +23,7 @@ using System.Collections;
 		private void setNombre(string pnombre){
 			nombre = pnombre;
 		}
-		public void setEstaVivo(bool pvivo){
-			estaVivo = pvivo;
-		}
+		
 		public void setVidaActual(int pvidaActual){
 			vidaActual = pvidaActual;
 		}
@@ -40,9 +37,7 @@ using System.Collections;
 		public string getNombre(){
 			return nombre;
 		}
-		public bool getEstaVivo(){
-			return estaVivo;
-		}
+		
 		public int getVidaActual(){
 			return vidaActual;
 		}
